@@ -1,0 +1,63 @@
+{
+  "name": "chris-com-ui",
+  "version": "1.0.8",
+  "private": false,
+  "description": "personal ui ",
+  "author": {
+    "name": "chrisxxp008"
+  },
+  "scripts": {
+    "lib": "vue-cli-service build --target lib  --dest lib packages/index.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "lib/chris-com-ui.common.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "chrisxxp-com-ui@1.0.5",
+  "bugs": {
+    "url": "https://github.com/chrisxxp/com-ui/issues"
+  },
+  "homepage": "https://github.com/chrisxxp/com-ui#readme",
+  "keywords": [
+    "ui"
+  ],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisxxp/com-ui.git"
+  }
+}
