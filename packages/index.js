@@ -1,9 +1,11 @@
 // 导入单个组件
-import Alert from "./alert/alert.vue"
+import alert from "./alert/alert.vue"
+import counter from "./counter/counter.vue"
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-    Alert,
+    alert,
+    counter
 ]
 
 // 定义 install 方法
@@ -24,5 +26,6 @@ export default {
     // 导出的对象必须具备一个 install 方法
     install,
     // 组件列表
-    Alert
+    alert,
+    counter
 }

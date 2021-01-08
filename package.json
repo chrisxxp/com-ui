@@ -1,6 +1,6 @@
 {
   "name": "chris-com-ui",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "description": "personal ui ",
   "author": {
@@ -11,7 +11,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test karma start"
   },
   "main": "lib/chris-com-ui.common.js",
   "dependencies": {
@@ -19,12 +19,33 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
+    "@vue/test-utils": "^1.1.2",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-preset-stage-3": "^6.24.1",
+    "chai": "^4.2.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "escope": "^3.6.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "karma": "^5.2.3",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-mocha": "^2.0.1",
+    "karma-sourcemap-loader": "^0.3.8",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^4.0.2",
+    "mocha": "^8.2.1",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
